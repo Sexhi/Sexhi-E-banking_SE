@@ -146,27 +146,49 @@ Overall, this code sets up the banking application, fetches account data, handle
  # style.css
   
   The * selector is used to apply the following styles to all elements on the page: margin and padding set to 0, and box-sizing set to inherit.
+  
 The html selector sets the font size to 62.5% (to make it easier to use rem units) and sets box-sizing to border-box.
+
 The body selector styles the body element with a specific font family, color, background color, height, and padding. It also uses the Poppins font and sets a 2rem padding on all sides.
+
 The nav selector styles a navigation element with flexbox properties to display its children in a row, justify the content between them, and align them vertically in the center. It also adds padding on the horizontal sides.
+
 The `.welcome` class styles an element with a font size of 1.9rem and a font weight of 500.
+
 The `.logo` class styles an element with a height of 5.25rem.
+
 The `.login` class styles an element with display set to flex.
+
 The `.login__input` class styles input elements with various properties like border, padding, font size, font family, text alignment, width, border radius, and transition.
+
 The `.login__input:`focus selector styles the input when it is in focus with a different border color.
+
 The `.login__input:`:placeholder selector styles the placeholder text color.
+
 The `.login__btn` class styles button elements with various properties like border, background, font size, color, and cursor. It also has transition effects on hover and focus.
+
 The `.app` class styles a container element with a maximum width, margin, display as a grid, grid template columns and rows, and gap between grid items. It also sets the initial opacity to 0 and adds a transition effect.
+
 The `.balance` class styles an element with display set to flex, aligns items to the flex-end, justifies the content between them, and adds a margin at the bottom.
+
 The `.balance__label`, `.balance__date`, and `.balance__value` classes style specific elements with various font sizes, font weights, and margins.
+
 The `.movements` class styles a container element with a grid row, background color, border radius, and scrollable overflow.
+
 The `.movements__row` class styles rows in the movements container with padding, display as flex, aligns items to the center, and adds a bottom border.
+
 The `.movements__type` and `.movements__date` classes style specific elements with font sizes, text transformations, font weights, and colors.
+
 The `.movements__type--deposit` and `.movements__type--withdrawal` classes add background gradients to specific elements.
+
 The `.movements__value` class styles a specific element with a font size and margin.
+
 The `.summary` class styles a container element with a grid row, display as flex, aligns items to the baseline, padding, and margin.
+
 The `.summary__label` and `.summary__value` classes style specific elements with font sizes, font weights, text transformations, and margins. Some of them also have specific colors.
+
 The `.btn--sort` class styles a specific element with a margin, border, background, font size, font weight, and cursor.
+
 The `.operation` class styles elements with border radius, padding, and color.
 
   
