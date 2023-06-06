@@ -13,11 +13,17 @@
 The provided code is a JSON object that represents an array of bank accounts. Each account is represented as an object with several properties:
 
 "owner": Represents the name of the account owner.
+
 "movements": Represents an array of numerical values, which are the movement amounts (deposits and withdrawals) in the account.
+
 "interestRate": Represents the interest rate for the account.
+
 "pin": Represents the PIN (Personal Identification Number) associated with the account.
+
 "movementsDates": Represents an array of strings that represent the dates and times of the corresponding movements in the account.
+
 "currency": Represents the currency associated with the account.
+
 "locale": Represents the locale or language for formatting purposes.
 
 The JSON object contains three account objects:
