@@ -19,8 +19,8 @@ The provided code is a JSON object that represents an array of bank accounts. Ea
 "movementsDates": Represents an array of strings that represent the dates and times of the corresponding movements in the account.
 "currency": Represents the currency associated with the account.
 "locale": Represents the locale or language for formatting purposes.
-The JSON object contains three account objects:
 
+The JSON object contains three account objects:
 The first account belongs to "Kiara Pajova" and has movement amounts, interest rate, PIN, movement dates, currency (EUR), and locale (pt-PT).
 The second account belongs to "Sexhi Picaku" and has similar properties with different values.
 The third account belongs to "Stiv Daiu" and has similar properties with different values.
