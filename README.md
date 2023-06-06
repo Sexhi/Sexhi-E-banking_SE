@@ -37,34 +37,63 @@ Each account object provides information about the account holder, their transac
 # index.html
 
 `<!DOCTYPE html>:` This declaration specifies the HTML version being used, which is HTML5.
+
 `<html lang="en">:` This opening tag represents the root element of the HTML document and specifies the language of the content (English in this case).
+
 `<head>:` This section contains meta information and external resources used by the HTML document.
+
 `<meta charset="UTF-8">:` Specifies the character encoding of the document as UTF-8, which supports a wide range of characters.
+
 `<meta name="viewport" content="width=device-width, initial-scale=1.0">:` Sets the viewport configuration for responsive design, ensuring the page adapts to different device screen widths.
+
 `<meta http-equiv="X-UA-Compatible" content="ie=edge">:` Specifies the compatibility mode for Internet Explorer.
+
 `<link rel="shortcut icon" type="image/png" href="/icon.png">:` Specifies the favicon (shortcut icon) for the webpage displayed in the browser tab.
+
 `<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap" rel="stylesheet">:` Loads a font stylesheet from Google Fonts API, specifically the Poppins font with various weights.
+
 `<link rel="stylesheet" href="style.css">:` Links an external CSS file named "style.css" to the HTML document.
+
 `<title>Bankist</title>:` Sets the title of the webpage displayed in the browser tab to "Bankist".
+
 `<body>:` This section contains the visible content of the webpage.
+
 `<nav>:` Represents the navigation section of the webpage.
+
 `<p class="welcome">Log in to get started</p>:` Displays a welcome message.
+
 `<img src="logo.png" alt="Logo" class="logo">:` Displays an image logo.
+
 `<form class="login">:` Represents a login form.
+
 `<input type="text" placeholder="user" class="login__input login__input--user">:` Accepts user input for the username.
+
 `<input type="password" placeholder="PIN" maxlength="4" class="login__input login__input--pin">:` Accepts user input for the PIN (masked input with a maximum length of 4 characters).
+
 `<button class="login__btn">&rarr;</button>:` Represents a login button.
+
 `<main class="app">:` Represents the main content of the webpage.
+
 `<div class="balance">:` Displays the account balance.
+
 Various child elements to display the label, date, and value of the balance.
+
 `<div class="movements">:` Displays the account movements (deposits and withdrawals).
+
 Multiple `<div class="movements__row">` elements, each representing a single movement with type, date, and value.
+
 `<div class="summary">:` Displays the summary of account transactions.
+
 `<p>` elements to display labels and values for total In, total Out, and Interest.
+
 `<button class="btn--sort">&downarrow; SORT</button>:` Represents a button for sorting the transactions.
+
 `<div>` elements representing different operations such as money transfer, loan request, and account closure. Each operation has a heading, a form, and input fields/buttons specific to that operation.
+
 `<p class="logout-timer">:` Displays a logout timer message.
+
 `<span class="timer">:` Represents a dynamic timer value that counts down.
+
 `<script src="script.js"></script>:` Links an external
   
   
@@ -88,11 +117,17 @@ The code then selects various DOM elements using document.querySelector() and as
 Several helper functions are defined:
 
 `formatMovementDate:` Formats the date of a transaction based on the number of days passed.
+
 `formatCur:` Formats a number as currency based on the locale and currency provided.
+
 `displayMovements:` Displays the account movements (deposits and withdrawals) in the UI.
+
 `calcDisplayBalance:` Calculates and displays the account balance.
+
 `calcDisplaySummary:` Calculates and displays the summary of total income, total outgoing, and interest earned.
+
 `createUsernames:` Generates usernames for each account based on the account owner's name.
+
 The updateUI function is defined to update the user interface with the current account's information. It calls the other helper functions to update the movements, balance, and summary.
 
 The `startLogOutTimer` function sets up a timer that logs out the user after a certain period of inactivity.
